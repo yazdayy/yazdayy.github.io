@@ -1,5 +1,5 @@
 //-- Prolog Session
-import subway_program from './subway-prolog.js'
+import subway_program from './test.js'
 const session = pl.create()
 session.consult(subway_program)
 
