@@ -1,4 +1,4 @@
-export default
+export default`
 %% TODO:
 %% Remove veggies/sauce that have already been chosen
 
@@ -230,3 +230,4 @@ show_topups(TopUps) :-
     findall(X, selected_topups(X), TopUps).
 show_sides(Sides) :-
     findall(X, selected_sides(X), Sides).
+`
